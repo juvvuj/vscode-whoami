@@ -15,14 +15,15 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:vscode-whoami.helloWorld"
+        "onCommand:vscode-whoami.echoName"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "vscode-whoami.helloWorld",
-                "title": "Hello World"
+                "command": "vscode-whoami.echoName",
+                "category": "Test",
+                "title": "Echo Name"
             }
         ]
     },
